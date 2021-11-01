@@ -1,0 +1,15 @@
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+
+# Build files
+build
+
+# Generated files
+tarana.gpr
+src/driver/tarana-paths.ads
+
+gmon.out
+gprof.txt

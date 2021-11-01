@@ -1,0 +1,9 @@
+project_name = Tarana
+source_dir = src
+source_dir = src/driver
+depend = { project = Wlib version = any }
+language = Ada
+main_unit = tarana-driver
+exec_name = tarana
+config_dir = config
+path_unit = { unit = Tarana.Paths path = src/driver/tarana-paths.ads }
